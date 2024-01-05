@@ -1,7 +1,8 @@
 repo_name: Hikkigaya/nops-aws-forwarder
 report_id: c033f2d29a88891c786e51c517fef63e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-11T13:19:03+00:00'
+timestamp: '2024-01-05T08:51:20+00:00'
 requested_by: Hikkigaya
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,7 +37,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/.github/workflows/check_release.yml
+  detection_source: ".github/workflows/check_release.yml"
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-04 02:25:31.000000000 Z
 - name: PyPI
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-03 12:26:08.000000000 Z
@@ -57,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/requirements.dev.txt
   detection_source: requirements.dev.txt
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-03 12:26:08.000000000 Z
@@ -69,40 +75,44 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder
   detection_source: Repo Metadata
 - name: ipdb
   description: IPython-enabled pdb
-  package_url: https://pypi.org/ipdb
+  package_url: https://pypi.org/project/ipdb
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20411/default_834dddd57f7b1404b19fa6cd08f22a7da3156be5.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/requirements.dev.txt
   detection_source: requirements.dev.txt
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-03 12:26:08.000000000 Z
 - name: requests-futures
   description: Asynchronous Python HTTP for Humans
-  package_url: https://pypi.org/requests-futures
+  package_url: https://pypi.org/project/requests-futures
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20103/default_bd24d3ca620f87100890811f569dec00db930a0f.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-03 12:26:08.000000000 Z
 - name: responses
   description: A utility library for mocking out the `requests` Python library
-  package_url: https://pypi.org/responses
+  package_url: https://pypi.org/project/responses
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/Hikkigaya/nops-aws-forwarder/blob/master/requirements.dev.txt
   detection_source: requirements.dev.txt
   last_updated_by: Le Kien Truc
   last_updated_on: 2022-06-03 12:26:08.000000000 Z
